@@ -1,0 +1,19 @@
+body{font-family: Arial, Helvetica, sans-serif;
+background-color: lavender;}
+
+button{
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    background-color: cornflowerblue;}
+
+button:hover{background-color: aquamarine;}
+
+#flex{display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+
+:checked + label{text-decoration: line-through;
+    color: grey;}
